@@ -20,6 +20,10 @@ public class basic_ops {
             System.out.println("Cannot divide by zero!");
         }
     }
+    private static void add(double num1, double num2) {
+        double result = num1 + num2;
+        System.out.println("Addition: " + num1 + " + " + num2 + " = " + result);
+    }
     private static void performOperations(double num1, double num2) {
         // Add method 
         // Subtract method 
