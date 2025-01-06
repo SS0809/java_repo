@@ -8,7 +8,10 @@ public class basic_ops {
         performOperations(num1, num2);
         scanner.close();
     }
-
+    private static void subtract(double num1, double num2) {
+        double result = num1 - num2;
+        System.out.println("Subtraction: " + num1 + " - " + num2 + " = " + result);
+    }
     private static void performOperations(double num1, double num2) {
         // Add method 
         // Subtract method 
