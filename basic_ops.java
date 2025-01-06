@@ -12,6 +12,14 @@ public class basic_ops {
         double result = num1 * num2;
         System.out.println("Multiplication: " + num1 + " * " + num2 + " = " + result);
     }
+    private static void divide(double num1, double num2) {
+        if (num2 != 0) {
+            double result = num1 / num2;
+            System.out.println("Division: " + num1 + " / " + num2 + " = " + result);
+        } else {
+            System.out.println("Cannot divide by zero!");
+        }
+    }
     private static void performOperations(double num1, double num2) {
         // Add method 
         // Subtract method 
